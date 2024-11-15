@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+        <fieldset> <legend>Information</legend>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" placeholder="first name"><br>
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name"name="first-name"placeholder="last name"><br>
+        <label for="email">Email:</label>
+        <input type="text"id="email" name="email" placeholder="email"><br>
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" placeholder="phone"><br>
+        <label for="birthdate">BirthDate:</label>
+        <input type="date" id="birthdate" name="birthdate" placeholder="birthdate"><br>
+     </fieldset>
+        <label for="oldness">How Old Are You:</label>
+        <select name="oldness" id="oldness">
+            <option value=""></option>
+            <option value="Old as Dirt">Old as Dirt</option>
+            <option value="Old as Lincoln">Old as Lincoln</option>
+            <option value="Middle Aged">Middle Aged</option>
+            <option value="Boomer">Boomer</option>
+            <option value="Millenial">Millential</option>
+            <option value="New Born">New Born</option>
+        </select><br>
+
+        <input type="radio" name="station" id="103_4" value="103_4"><label for="103_4">103.4</label>
+        <input type="radio" name="station" id="fm88_5" value="fm88_5"><label for="fm88_5">88.5FM</label><br>
+        <input type="checkbox" id="pizza" name="pizza" ><label for pizza>Pizza</label><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
